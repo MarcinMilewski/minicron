@@ -4,12 +4,12 @@ To compile:
 ./make
 
 To run daemon:
-./minicron <taskfile> <outfile>
+./minicron taskfile outfile
 
 taskfile format:
-<hour>:<minutes>:<command>:<info>
+hour:minutes:command:info
 
-where <info> must be in values:
+where info must be in values:
 0 - stdout enabled
 1 - stderr enabled
 2 - stdout and stderr enabled
